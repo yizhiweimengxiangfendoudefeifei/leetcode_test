@@ -18,5 +18,8 @@
     <ClCompile Include="01two-sum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="02交替位二进制数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

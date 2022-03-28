@@ -26,10 +26,10 @@ ostream& operator<<(ostream& cout,vector<int> v) {
     cout << endl;
     return cout;
 }
-int main() {
-    vector<int> nums = { 10,7,2,15 };
-    Solution s;
-    cout << s.twoSum(nums, 9);
-	system("pause");
-	return 0;
-}
+//int main() {
+//    vector<int> nums = { 10,7,2,15 };
+//    Solution s;
+//    cout << s.twoSum(nums, 9);
+//	system("pause");
+//	return 0;
+//}
