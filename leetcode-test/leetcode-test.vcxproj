@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="01two-sum.cpp" />
     <ClCompile Include="02交替位二进制数.cpp" />
+    <ClCompile Include="03最大重复子字符串.cpp" />
+    <ClCompile Include="04动态规划-最大子数组和.cpp" />
+    <ClCompile Include="05爬楼梯.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

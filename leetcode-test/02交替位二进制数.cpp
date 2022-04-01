@@ -17,14 +17,14 @@ bool hasAlternatingBits(int n) {
     return true;
 }
 
-int main() {
-    if (hasAlternatingBits(7)) {
-        cout << "true" << endl;
-    }
-    else {
-        cout << "false" << endl;
-    }
-    
-    system("pause");
-    return 0;
-}
+//int main() {
+//    if (hasAlternatingBits(7)) {
+//        cout << "true" << endl;
+//    }
+//    else {
+//        cout << "false" << endl;
+//    }
+//    
+//    system("pause");
+//    return 0;
+//}

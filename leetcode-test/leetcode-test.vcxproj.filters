@@ -21,5 +21,14 @@
     <ClCompile Include="02交替位二进制数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="03最大重复子字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04动态规划-最大子数组和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05爬楼梯.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
