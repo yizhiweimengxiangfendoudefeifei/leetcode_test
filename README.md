@@ -38,4 +38,7 @@ return {i,j}；返回vector<int>
   在一个方格图中计算最小的路径上的和，但是只能向下或者向右走。   
   注意算法min的使用  
   [二维数组初始化的方法vector<vector<int>> dp={{}};](https://blog.csdn.net/sinat_41852207/article/details/86668954)  
+## 4.5编辑距离
+  给你两个单词 word1 和 word2， 请返回将 word1 转换成 word2 所使用的最少操作数。  “horse”“ros”  
+  二维动态规划问题，将其写成二维数组进行动态规划，存储动态规划的节点。tips：动态规划矩阵和字符串的索引不一致！  
 
