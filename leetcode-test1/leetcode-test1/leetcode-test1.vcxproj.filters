@@ -24,7 +24,10 @@
     <ClCompile Include="04.1动态规划-最大子数组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04.3最小路径和.cpp">
+    <ClCompile Include="04.4最小路径和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04.5编辑距离.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

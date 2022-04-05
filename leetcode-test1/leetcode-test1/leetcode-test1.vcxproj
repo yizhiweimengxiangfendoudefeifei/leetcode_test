@@ -142,7 +142,8 @@
     <ClCompile Include="04.1动态规划-最大子数组.cpp" />
     <ClCompile Include="04.2爬楼梯.cpp" />
     <ClCompile Include="04.3不同路径.cpp" />
-    <ClCompile Include="04.3最小路径和.cpp" />
+    <ClCompile Include="04.4最小路径和.cpp" />
+    <ClCompile Include="04.5编辑距离.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
