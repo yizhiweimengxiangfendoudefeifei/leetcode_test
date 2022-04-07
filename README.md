@@ -34,6 +34,7 @@ return {i,j}；返回vector<int>
   int* p = new int[10];定义一个长度为10的数组指向指针p  
 ## 4.3 不同路径
   利用vector<vector<int>>定义了一个包含vector的容器vector，定义一个数组。[二维数组网址](https://www.jianshu.com/p/2524c34511f3)  
+  在优化空间时使用了vector容器，要注意vector容器如果没有初始化多少时不能直接取出。初始化vector<int> dp(n);  
 ## 4.4 最小路径和  
   在一个方格图中计算最小的路径上的和，但是只能向下或者向右走。   
   注意算法min的使用  
