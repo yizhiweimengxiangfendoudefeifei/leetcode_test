@@ -53,7 +53,6 @@ int search(vector<int>& nums, int target) {
 
 int main() {
     vector<int> nums = {4,5,6,7,0,1,2};//为什么不能用引用？
-    
     cout << search(nums, 0);
     system("pause");
     return 0;
