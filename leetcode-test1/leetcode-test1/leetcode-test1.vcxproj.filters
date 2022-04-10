@@ -39,5 +39,14 @@
     <ClCompile Include="05.0二分法搜寻旋转数组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="05.1二维数组的查找.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06.0贪心算法孩子吃饼干.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06.1无重叠区间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
