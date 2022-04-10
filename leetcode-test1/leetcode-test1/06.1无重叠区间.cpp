@@ -3,6 +3,11 @@
 #include<algorithm>
 using namespace std;
 
+//sort中的对比方法
+bool compare(const vector<int>& arr1, const vector<int>& arr2) {
+    return arr1[1] < arr2[1];
+}
+
 int eraseOverlapIntervals(vector<vector<int>>& intervals) {
     int row = intervals.size();
 
