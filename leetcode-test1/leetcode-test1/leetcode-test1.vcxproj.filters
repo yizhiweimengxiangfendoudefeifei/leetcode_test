@@ -33,7 +33,7 @@
     <ClCompile Include="04.6不同路径2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04.7股票买卖的最佳时机.cpp">
+    <ClCompile Include="04.7股票买卖的最佳时机4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="05.0二分法搜寻旋转数组.cpp">
@@ -46,6 +46,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="06.1无重叠区间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04.73股票买卖3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04.72股票买卖2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

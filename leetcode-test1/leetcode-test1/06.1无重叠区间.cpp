@@ -26,9 +26,9 @@ int eraseOverlapIntervals(vector<vector<int>>& intervals) {
     return row - count;
 }
 
-int main() {
-    vector<vector<int>> interval = { {1,2},{2,3},{3,4},{1,3} };
-    cout << eraseOverlapIntervals(interval);
-	system("pause");
-	return 0;
-}
+//int main() {
+//    vector<vector<int>> interval = { {1,2},{2,3},{3,4},{1,3} };
+//    cout << eraseOverlapIntervals(interval);
+//	system("pause");
+//	return 0;
+//}
