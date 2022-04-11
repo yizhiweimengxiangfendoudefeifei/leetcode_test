@@ -57,7 +57,7 @@ return {i,j}；返回vector<int>
   这里要注意数组的引用传递问题。同时要注意这个++写法children[child] <= cookies[cook++]    
 ## 6.2无重叠区间  
   求所有的没有重叠的区间有多少个，贪心算法是指按顺序排列后前一个保存的二维数组的第二个数小于等于下一个二维数组的第一个数  
-  这里要注意如何对比二维数组的第二个数的大小（sort中的compare的写法）：
+  这里要注意如何对比二维数组的第二个数的大小（sort中的compare的写法），代码里也写了正常的对比方法：
   ```
   [](const auto& arr1, const auto& arr2) {  
         return arr1[1] < arr2[1];  
