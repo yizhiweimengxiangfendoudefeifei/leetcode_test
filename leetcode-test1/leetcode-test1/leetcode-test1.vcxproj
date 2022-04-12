@@ -147,7 +147,7 @@
     <ClCompile Include="04.6不同路径2.cpp" />
     <ClCompile Include="04.72股票买卖2.cpp" />
     <ClCompile Include="04.73股票买卖3.cpp" />
-    <ClCompile Include="04.7股票买卖的最佳时机4.cpp" />
+    <ClCompile Include="04.74股票买卖的最佳时机4.cpp" />
     <ClCompile Include="05.0二分法搜寻旋转数组.cpp" />
     <ClCompile Include="05.1二维数组的查找.cpp" />
     <ClCompile Include="06.0贪心算法孩子吃饼干.cpp" />
