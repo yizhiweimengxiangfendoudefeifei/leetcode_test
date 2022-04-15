@@ -20,10 +20,10 @@ int maxProfit(vector<int>& prices) {
 
 
 
-int main() {
-	vector<int> price = { 2,4,1 };
-	cout << maxProfit(price) << endl;
-
-	system("pause");
-	return 0;
-}
+//int main() {
+//	vector<int> price = { 2,4,1 };
+//	cout << maxProfit(price) << endl;
+//
+//	system("pause");
+//	return 0;
+//}

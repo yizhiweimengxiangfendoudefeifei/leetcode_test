@@ -54,5 +54,11 @@
     <ClCompile Include="04.72股票买卖2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="06.2分糖果问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04.8机器人达到指定位置方法数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
