@@ -2,6 +2,7 @@
 #include<queue>
 
 #include"lujing1.h"
+#include"lujing2.h"
 using namespace std;
 
 
@@ -25,6 +26,8 @@ int main() {
 		else {
 			cout << "nothave" << endl;
 		}
+	case 3:
+		cout << pathSum(TreeNode * root, int targetSum);
 
 	default:
 		break;
