@@ -143,8 +143,10 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="4岛屿数量.h" />
     <ClInclude Include="lujing1.h" />
     <ClInclude Include="lujing2.h" />
+    <ClInclude Include="lujing3_sum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

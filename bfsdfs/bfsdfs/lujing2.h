@@ -7,6 +7,7 @@
 unordered_map<TreeNode*, TreeNode*> parent;
 vector<vector<int>> ret;
 
+//利用unordered_map存储父类节点和子类节点的关系，回溯找到路径
 void getPath(TreeNode* node) {
     vector<int> tmp;
     while (node != nullptr) {
@@ -16,7 +17,7 @@ void getPath(TreeNode* node) {
     reverse(tmp.begin(), tmp.end());
     ret.push_back(tmp);
 }
-
+//返回路径的顺序,这道题必须是从根节点到叶子节点才行
 vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
     if (root == nullptr) {
         return ret;

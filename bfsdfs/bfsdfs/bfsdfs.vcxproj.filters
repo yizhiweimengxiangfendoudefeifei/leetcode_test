@@ -29,5 +29,11 @@
     <ClInclude Include="lujing2.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="lujing3_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4岛屿数量.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
