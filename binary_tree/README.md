@@ -10,4 +10,8 @@
 ## 3.恢复二叉搜索树  
 整体思路是：先遍历所有的节点得到数值，使用vector容器保存所有的数据，然后进行排序得到v2，将v2和v容器中的数据对比得到不同的那两个数据。然后遍历直到找到这两个错误放置的数据，交换他们的位置即可。  
 下边是这个例题题目：  
-![image](https://user-images.githubusercontent.com/39455551/165429082-5b0f8ccd-38a1-44d8-b524-73647b5b1915.png)
+![image](https://user-images.githubusercontent.com/39455551/165429082-5b0f8ccd-38a1-44d8-b524-73647b5b1915.png)  
+## 4.不同的二叉搜索树  
+这是一道数学模型题，利用的是  模型。  
+![image](https://user-images.githubusercontent.com/39455551/165434838-2606c09c-75ed-4ebd-8307-db2bad2fd6ab.png)
+
