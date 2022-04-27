@@ -71,7 +71,7 @@ void recover(TreeNode* root, int num,int x,int y) {
 }
 void recoverTree(TreeNode* root) {
 	//TreeNode* T{};
-	creatTree(root);//3 1 4 2
+	creatTree(root);//3 1 # # 4 2 # # #
 
 	inOrder(root);
 	vector<int> v2 = v;
