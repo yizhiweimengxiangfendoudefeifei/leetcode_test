@@ -3,9 +3,11 @@
 #include"3binary_search_tree.h"
 #include"4num_binary_tree_math.h"
 #include"5num_binary_tree_math2.h"
+#include"6binary_tree_to_chain.h"
 
 //3_binary_search_tree
 TreeNode* node{};
+TreeNode6* node6{};
 
 int main() {
     TreeNode1* left = new TreeNode1(9);
@@ -37,7 +39,11 @@ int main() {
     case 5:
         cout << "您选择力扣题目是：95.不同的二叉搜索树2" << endl;
         cout << "4满足的二叉树的结构为：" << endl;
-        cout << generateTrees(3) << endl;
+        //cout << generateTrees(3) << endl;
+    case 6:
+        cout << "您选择力扣题目是：114.二叉树展开成链表" << endl;
+        cout << "展开的单链表为： " << endl;
+        flatten(node6);
 
     default:
         break;
