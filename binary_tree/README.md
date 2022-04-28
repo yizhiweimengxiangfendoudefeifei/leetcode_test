@@ -17,5 +17,9 @@
 ## 5.不同的二叉搜索树2  
 这道题是上一道题的拓展，需要输出二叉树的结构。没太看懂，需要再看一下。  
 ![image](https://user-images.githubusercontent.com/39455551/165664047-3eba06ba-4780-4595-b1d5-3cadccf1c991.png)  
+## 6.二叉树展开为链表  
+主要思路：前序遍历存储树状结构，循环遍历将左指针指向空，右指针指向下一个节点。  
+![image](https://user-images.githubusercontent.com/39455551/165670157-435c8bc4-4ab5-4511-bf4d-3a7e8a7e7a93.png)
+
 
 
