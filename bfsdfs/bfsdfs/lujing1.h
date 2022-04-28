@@ -1,27 +1,30 @@
 #pragma once
 #ifndef __lujing1__ 
 #define __lujing1__
+#include<iostream>
+#include<vector>
+using namespace std;
 
-struct TreeNode {
+struct TreeNode1 {
     int val;
-    TreeNode* left;
-    TreeNode* right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
+    TreeNode1* left;
+    TreeNode1* right;
+    TreeNode1() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode1(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode1(int x, TreeNode1* left, TreeNode1* right) : val(x), left(left), right(right) {}
     
 };
-bool hasPathSum(TreeNode* root, int targetSum) {
+bool hasPathSum(TreeNode1* root, int targetSum) {
     if (root == nullptr) {
         return false;
     }
-    queue<TreeNode*> q_sum;
+    queue<TreeNode1*> q_sum;
     queue<int> q_val;
     
     q_sum.push(root);
     q_val.push(root->val);
     while (!q_sum.size()) {
-        TreeNode* now = q_sum.front();
+        TreeNode1* now = q_sum.front();
         int temp = q_val.front();
         q_sum.pop();
         q_val.pop();

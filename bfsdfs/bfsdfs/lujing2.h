@@ -4,11 +4,16 @@
 #include<unordered_map>
 #include<vector>
 
-unordered_map<TreeNode*, TreeNode*> parent;
+struct TreeNode2 {
+    int val;
+    TreeNode2* left;
+    TreeNode2* right;
+};
+unordered_map<TreeNode2*, TreeNode2*> parent;
 vector<vector<int>> ret;
 
 //利用unordered_map存储父类节点和子类节点的关系，回溯找到路径
-void getPath(TreeNode* node) {
+void getPath(TreeNode2* node) {
     vector<int> tmp;
     while (node != nullptr) {
         tmp.push_back(node->val);
@@ -18,11 +23,11 @@ void getPath(TreeNode* node) {
     ret.push_back(tmp);
 }
 //返回路径的顺序,这道题必须是从根节点到叶子节点才行
-vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
+vector<vector<int>> pathSum(TreeNode2* root, int targetSum) {
     if (root == nullptr) {
         return ret;
     }
-    queue<TreeNode*> q_node;
+    queue<TreeNode2*> q_node;
     queue<int> q_val;
 
 
@@ -31,7 +36,7 @@ vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
 
 
     while (!q_node.empty()) {
-        TreeNode* now = q_node.front();
+        TreeNode2* now = q_node.front();
         q_node.pop();
         int temp1 = q_val.front() + now->val;
         q_val.pop();

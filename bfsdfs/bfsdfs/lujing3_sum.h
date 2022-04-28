@@ -2,15 +2,34 @@
 #include <cstddef>
 #ifndef __lujing3__
 #define __lujing3__
+using namespace std;
 
-struct TreeNode {
+struct TreeNode3 {
     int val;
-    TreeNode* left;
-    TreeNode* right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-    
+    TreeNode3* left;
+    TreeNode3* right;    
 };
-int rootSum(TreeNode* root, int sum) {
+
+//按照前序遍历的方式创建二叉树,这里传入的必须包含引用
+void createTree(TreeNode3* &node) {
+    int aa;
+    cin >> aa;
+    if (aa == 00) {
+        node = NULL;
+    }
+    else
+    {
+        node = new TreeNode3();
+        if (!node) {
+            exit(OVERFLOW);
+        }
+        node->val = aa;
+        createTree(node->left);
+        createTree(node->right);
+    }
+}
+int rootSum(TreeNode3* root, int sum) {
+    
     if (!root) {
         return 0;
     }
@@ -26,7 +45,8 @@ int rootSum(TreeNode* root, int sum) {
 }
 
 
-int pathSum3(TreeNode* root, int sum) {
+int pathSum3(TreeNode3* root, int sum) {
+    
     if (!root) {
         return 0;
     }

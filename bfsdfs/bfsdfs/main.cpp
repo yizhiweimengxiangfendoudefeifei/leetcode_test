@@ -9,7 +9,7 @@
 using namespace std;
 
 
-
+TreeNode3* root3{};
 
 int main() {
     cout << "请输入您要选择的工程序号: " << endl;
@@ -25,20 +25,21 @@ int main() {
 		cout << "请输入数字: " << endl;
 		int target;
 		cin >> target;
-		TreeNode* root = { 5,4,8,11,null,13,4,7,2,null,null,null,1 };
+		/*TreeNode* root = { 5,4,8,11,null,13,4,7,2,null,null,null,1 };
 		if (hasPathSum(TreeNode* root, int target)) {
 			cout << "ishave" << endl
 		}
 		else {
 			cout << "nothave" << endl;
-		}
+		}*/
 	case 3:
 		//返回路径的顺序
-		cout << pathSum(TreeNode * root, int targetSum);
+		//cout << pathSum(TreeNode * root, int targetSum);
 	case 4:
 		//求和路径
-		TreeNode * node1{ 5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1 };
-		cout << pathSum3(TreeNode * root, 22) << endl;
+		cout << "您选择的是力扣第437题路径总和3：" << endl;
+		createTree(root3);//10 5 3 3 # # -2 # # 2 # 1 # # -3 # 11 # #
+		cout << pathSum3(root3,8) << endl;
 
 	default:
 		break;
