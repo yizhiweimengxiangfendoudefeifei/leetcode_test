@@ -32,5 +32,8 @@
     <ClInclude Include="4num_binary_tree_math.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="5num_binary_tree_math2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

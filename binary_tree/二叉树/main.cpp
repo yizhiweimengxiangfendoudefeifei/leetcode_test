@@ -2,6 +2,7 @@
 #include"2从前序和中序遍历序列构造二叉树.h"
 #include"3binary_search_tree.h"
 #include"4num_binary_tree_math.h"
+#include"5num_binary_tree_math2.h"
 
 //3_binary_search_tree
 TreeNode* node{};
@@ -33,6 +34,11 @@ int main() {
         cout << "您选择力扣题目是：96.不同的二叉搜索树" << endl;
         cout << "3对应的互不相同的二叉搜索树有多少种？" << endl;
         cout << numTrees(3) << endl;
+    case 5:
+        cout << "您选择力扣题目是：95.不同的二叉搜索树2" << endl;
+        cout << "4满足的二叉树的结构为：" << endl;
+        cout << generateTrees(3) << endl;
+
     default:
         break;
     }
