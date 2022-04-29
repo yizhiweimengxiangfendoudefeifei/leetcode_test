@@ -22,7 +22,11 @@
 ![image](https://user-images.githubusercontent.com/39455551/165670157-435c8bc4-4ab5-4511-bf4d-3a7e8a7e7a93.png)  
 ## 7.平衡二叉树  
 主要思路：递归遍历二叉树的每个结点的深度。  
-![image](https://user-images.githubusercontent.com/39455551/165937292-0b5aef9b-f8c4-4fbb-a629-6558988cc7bc.png)
+![image](https://user-images.githubusercontent.com/39455551/165937292-0b5aef9b-f8c4-4fbb-a629-6558988cc7bc.png)  
+## 8.求根节点到叶节点数字之和  
+思路：利用递归计算根节点到叶子的数字之和。计算十位以上的数字可以可以10进行计算。  
+![image](https://user-images.githubusercontent.com/39455551/165973535-8c9577c2-3a21-4716-b4fb-7c80af79e779.png)
+
 
 
 
