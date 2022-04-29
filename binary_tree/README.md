@@ -19,7 +19,11 @@
 ![image](https://user-images.githubusercontent.com/39455551/165664047-3eba06ba-4780-4595-b1d5-3cadccf1c991.png)  
 ## 6.二叉树展开为链表  
 主要思路：前序遍历存储树状结构，循环遍历将左指针指向空，右指针指向下一个节点。  
-![image](https://user-images.githubusercontent.com/39455551/165670157-435c8bc4-4ab5-4511-bf4d-3a7e8a7e7a93.png)
+![image](https://user-images.githubusercontent.com/39455551/165670157-435c8bc4-4ab5-4511-bf4d-3a7e8a7e7a93.png)  
+## 7.平衡二叉树  
+主要思路：递归遍历二叉树的每个结点的深度。  
+![image](https://user-images.githubusercontent.com/39455551/165937292-0b5aef9b-f8c4-4fbb-a629-6558988cc7bc.png)
+
 
 
 
