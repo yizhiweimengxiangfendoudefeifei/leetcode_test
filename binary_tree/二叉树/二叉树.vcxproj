@@ -149,6 +149,7 @@
     <ClInclude Include="5num_binary_tree_math2.h" />
     <ClInclude Include="6binary_tree_to_chain.h" />
     <ClInclude Include="7balance_tree.h" />
+    <ClInclude Include="8root_to_leaf_sum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

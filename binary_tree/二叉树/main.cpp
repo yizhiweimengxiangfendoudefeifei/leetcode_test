@@ -11,6 +11,7 @@ TreeNode* node7{};
 #include"5num_binary_tree_math2.h"
 #include"6binary_tree_to_chain.h"
 #include"7balance_tree.h"
+#include"8root_to_leaf_sum.h"
 
 //3_binary_search_tree
 
@@ -57,6 +58,9 @@ int main() {
     case 7:
         cout << "您选择力扣题目是：110.平衡二叉树" << endl;
         cout << isBalanced(node7) << endl;//二叉树的创建是 1 2 3 4 # # # # 2 # 3 # 4 # #
+    case 8:
+        cout << "您选择力扣题目是：129.求根节点到叶子节点的数字之和" << endl;
+        cout << sumNumbers(node7) << endl;//1 2 # # 3 # #
 
     default:
         break;

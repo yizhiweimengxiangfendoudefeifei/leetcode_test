@@ -41,5 +41,8 @@
     <ClInclude Include="7balance_tree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="8root_to_leaf_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
