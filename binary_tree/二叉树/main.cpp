@@ -1,13 +1,22 @@
+struct TreeNode {
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+};
+TreeNode* node7{};
 #include"1maxDepth.h"
 #include"2从前序和中序遍历序列构造二叉树.h"
 #include"3binary_search_tree.h"
 #include"4num_binary_tree_math.h"
 #include"5num_binary_tree_math2.h"
 #include"6binary_tree_to_chain.h"
+#include"7balance_tree.h"
 
 //3_binary_search_tree
-TreeNode* node{};
+
 TreeNode6* node6{};
+
+
 
 int main() {
     TreeNode1* left = new TreeNode1(9);
@@ -30,7 +39,7 @@ int main() {
     case 3:
         cout << "您选择力扣题目是：99.恢复二叉搜索树" << endl;
         
-        recoverTree(node);
+        //recoverTree(node);
         break;
     case 4:
         cout << "您选择力扣题目是：96.不同的二叉搜索树" << endl;
@@ -43,7 +52,11 @@ int main() {
     case 6:
         cout << "您选择力扣题目是：114.二叉树展开成链表" << endl;
         cout << "展开的单链表为： " << endl;
-        flatten(node6);
+        //flatten(node6);
+        //isBalanced(node6);
+    case 7:
+        cout << "您选择力扣题目是：110.平衡二叉树" << endl;
+        cout << isBalanced(node7) << endl;//二叉树的创建是 1 2 3 4 # # # # 2 # 3 # 4 # #
 
     default:
         break;

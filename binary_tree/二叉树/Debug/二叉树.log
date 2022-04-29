@@ -1,3 +1,7 @@
 ﻿  main.cpp
-D:\GAO\coding\c++\leetcode-test\binary_tree\二叉树\3binary_search_tree.h(80,20): warning C4018: “<”: 有符号/无符号不匹配
-  二叉树.vcxproj -> D:\GAO\coding\c++\leetcode-test\binary_tree\Debug\二叉树.exe
+D:\GAO\coding\c++\leetcode-test\binary_tree\二叉树\3binary_search_tree.h(76,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\GAO\coding\c++\leetcode-test\binary_tree\二叉树\7balance_tree.h(6,6): error C2084: 函数“void creatTree(TreeNode *&)”已有主体
+D:\GAO\coding\c++\leetcode-test\binary_tree\二叉树\3binary_search_tree.h(14): message : 参见“creatTree”的前一个定义
+D:\GAO\coding\c++\leetcode-test\binary_tree\二叉树\7balance_tree.h(18,26): error C2264: “creatTree”: 函数定义或声明中有错误；未调用函数
+D:\GAO\coding\c++\leetcode-test\binary_tree\二叉树\7balance_tree.h(19,27): error C2264: “creatTree”: 函数定义或声明中有错误；未调用函数
+D:\GAO\coding\c++\leetcode-test\binary_tree\二叉树\7balance_tree.h(37,19): error C2264: “creatTree”: 函数定义或声明中有错误；未调用函数

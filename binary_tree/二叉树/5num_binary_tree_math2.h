@@ -24,7 +24,7 @@ vector<TreeNode2*> generate(int start, int end) {
 
         for (auto& left1 : leftTree) {
             for (auto& right1 : rightTree) {
-                TreeNode2* root = new TreeNode2(i);
+                TreeNode2* root = new TreeNode2();
 
                 root->left = left1;
                 root->right = right1;

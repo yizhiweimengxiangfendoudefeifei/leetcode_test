@@ -38,5 +38,8 @@
     <ClInclude Include="6binary_tree_to_chain.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="7balance_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
