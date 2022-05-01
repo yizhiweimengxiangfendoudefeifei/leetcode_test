@@ -25,7 +25,12 @@
 ![image](https://user-images.githubusercontent.com/39455551/165937292-0b5aef9b-f8c4-4fbb-a629-6558988cc7bc.png)  
 ## 8.求根节点到叶节点数字之和  
 思路：利用递归计算根节点到叶子的数字之和。计算十位以上的数字可以乘以10进行计算。  
-![image](https://user-images.githubusercontent.com/39455551/165973535-8c9577c2-3a21-4716-b4fb-7c80af79e779.png)
+![image](https://user-images.githubusercontent.com/39455551/165973535-8c9577c2-3a21-4716-b4fb-7c80af79e779.png)  
+## 9.求二叉树的最大路径和  
+[大神总结的二叉树遍历的两种方法](https://leetcode-cn.com/problems/path-sum-ii/solution/yi-pian-wen-zhang-jie-jue-suo-you-er-cha-oo63/)  
+思路：利用两重递归来更新全局变量res的值。因为这里有负数，故需要初始化res为INT_MIN。  
+![image](https://user-images.githubusercontent.com/39455551/166130356-4dc45657-1b88-4709-ae5e-3420eb213fd0.png)
+
 
 
 
