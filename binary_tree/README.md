@@ -29,7 +29,11 @@
 ## 9.求二叉树的最大路径和  
 [大神总结的二叉树遍历的两种方法](https://leetcode-cn.com/problems/path-sum-ii/solution/yi-pian-wen-zhang-jie-jue-suo-you-er-cha-oo63/)  
 思路：利用两重递归来更新全局变量res的值。因为这里有负数，故需要初始化res为INT_MIN。  
-![image](https://user-images.githubusercontent.com/39455551/166130356-4dc45657-1b88-4709-ae5e-3420eb213fd0.png)
+![image](https://user-images.githubusercontent.com/39455551/166130356-4dc45657-1b88-4709-ae5e-3420eb213fd0.png)  
+## 10.最长同值路径  
+思路：和9是相同类型问题，注意当左节点存在且根节点的值等于左节点的值时左值加1，否则左值为0.右节点同理。num取num和左值加右值值中较大的那个。  
+![image](https://user-images.githubusercontent.com/39455551/166137197-93d2a050-c223-41b8-a7ee-869b24f17774.png)
+
 
 
 
