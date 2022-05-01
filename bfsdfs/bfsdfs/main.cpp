@@ -33,13 +33,14 @@ int main() {
 			cout << "nothave" << endl;
 		}*/
 	case 3:
-		//返回路径的顺序
-		//cout << pathSum(TreeNode * root, int targetSum);
+		//返回路径的数量
+		cout << "您选择的是力扣第437题路径总和3：" << endl;
+		cout << "请按照前序遍历构造二叉树" << endl;
+		createTree(root3);//10 5 3 3 # # -2 # # 2 # 1 # # -3 # 11 # #
+		cout << pathSum3(root3, 8) << endl;
 	case 4:
 		//求和路径
-		cout << "您选择的是力扣第437题路径总和3：" << endl;
-		createTree(root3);//10 5 3 3 # # -2 # # 2 # 1 # # -3 # 11 # #
-		cout << pathSum3(root3,8) << endl;
+		
 
 	default:
 		break;
