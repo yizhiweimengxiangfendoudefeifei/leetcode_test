@@ -12,6 +12,7 @@ TreeNode* node7{};
 #include"6binary_tree_to_chain.h"
 #include"7balance_tree.h"
 #include"8root_to_leaf_sum.h"
+#include"9binary_max_sum.h"
 
 //3_binary_search_tree
 
@@ -61,6 +62,10 @@ int main() {
     case 8:
         cout << "您选择力扣题目是：129.求根节点到叶子节点的数字之和" << endl;
         cout << sumNumbers(node7) << endl;//1 2 # # 3 # #
+    case 9:
+        cout << "您选择力扣题目是：124.二叉树中的最短路径和" << endl;
+        cout << "您需要创建的二叉树顺序是：-10 9 # # 20 15 # # 7 # #,答案是42" << endl;
+        cout << maxPathSum(node7) << endl;
 
     default:
         break;

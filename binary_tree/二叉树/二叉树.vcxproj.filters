@@ -44,5 +44,8 @@
     <ClInclude Include="8root_to_leaf_sum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="9binary_max_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
