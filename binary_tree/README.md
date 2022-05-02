@@ -35,7 +35,12 @@
 ![image](https://user-images.githubusercontent.com/39455551/166137197-93d2a050-c223-41b8-a7ee-869b24f17774.png)
 ## 11.二叉树的直径  
 思路：需要拿出全局变量num来存储，num = max(num, left + right);，遍历每个结点对比取出最大值num。  
-![image](https://user-images.githubusercontent.com/39455551/166206509-8574331c-b41d-4c2e-818c-2eb73c44039e.png)
+![image](https://user-images.githubusercontent.com/39455551/166206509-8574331c-b41d-4c2e-818c-2eb73c44039e.png)  
+## 12.二叉树的所有路径  
+注意：[to_string()](http://cplusplus.com/reference/string/to_string/?kw=to_string) 将其他类型转换为string类型  
+每到一次叶子节点就把本条路径的所有string放到准备好的容器中。利用左右递归完成。  
+![image](https://user-images.githubusercontent.com/39455551/166246852-e52ac859-5aac-4f1e-b69e-148def1b061c.png)
+
 
 
 
