@@ -1,3 +1,4 @@
 ﻿  main.cpp
 D:\GAO\coding\c++\leetcode-test\binary_tree\二叉树\3binary_search_tree.h(76,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\GAO\coding\c++\leetcode-test\binary_tree\二叉树\12binaryTreePaths.h(34,23): warning C4018: “<”: 有符号/无符号不匹配
   二叉树.vcxproj -> D:\GAO\coding\c++\leetcode-test\binary_tree\Debug\二叉树.exe

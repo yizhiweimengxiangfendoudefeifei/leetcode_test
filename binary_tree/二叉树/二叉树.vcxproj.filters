@@ -53,5 +53,8 @@
     <ClInclude Include="11diameterofBinary.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="12binaryTreePaths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

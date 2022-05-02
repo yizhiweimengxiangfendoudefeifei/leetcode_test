@@ -15,6 +15,7 @@ TreeNode* node7{};
 #include"9binary_max_sum.h"
 #include"10longestUnivaluePath.h"
 #include"11diameterofBinary.h"
+#include"12binaryTreePaths.h"
 
 //3_binary_search_tree
 
@@ -77,6 +78,11 @@ int main() {
         cout << "您选择力扣题目是：543. 二叉树的直径" << endl;
         cout << "您需要创建的二叉树顺序是：1 2 4 # # 5 # # 3 # #,答案是3" << endl;
         cout << diameterOfBinaryTree(node7) << endl;
+    case 12:
+        cout << "您选择力扣题目是：257. 二叉树的所有路径" << endl;
+        cout << "您需要创建的二叉树顺序是：1 2 # 5 # # 3 # #" << endl;//输出形式如"1->2->5","1->3"
+        binaryTreePaths(node7);
+        myprint();
     default:
         break;
     }
