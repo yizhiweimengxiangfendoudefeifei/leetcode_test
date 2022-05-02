@@ -33,6 +33,9 @@
 ## 10.最长同值路径  
 思路：和9是相同类型问题，注意当左节点存在且根节点的值等于左节点的值时左值加1，否则左值为0.右节点同理。num取num和左值加右值值中较大的那个。  
 ![image](https://user-images.githubusercontent.com/39455551/166137197-93d2a050-c223-41b8-a7ee-869b24f17774.png)
+## 11.二叉树的直径  
+思路：需要拿出全局变量num来存储，num = max(num, left + right);，遍历每个结点对比取出最大值num。  
+![image](https://user-images.githubusercontent.com/39455551/166206509-8574331c-b41d-4c2e-818c-2eb73c44039e.png)
 
 
 
