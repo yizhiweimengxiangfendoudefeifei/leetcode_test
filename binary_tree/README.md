@@ -42,6 +42,13 @@
 ![image](https://user-images.githubusercontent.com/39455551/166246852-e52ac859-5aac-4f1e-b69e-148def1b061c.png)  
 ## 13.[打家劫舍3](https://leetcode-cn.com/problems/house-robber-iii/)  
 这道题太难了，过几天再想想。  
+## 14.验证二叉树是否相等  
+
+![image](https://user-images.githubusercontent.com/39455551/166960207-913b5b04-b807-4632-8c47-d3371a15d916.png)
+## 15.二叉搜索树的插入操作  
+
+![image](https://user-images.githubusercontent.com/39455551/166960382-a2249a31-8efa-4caf-ac34-021642d6502e.png)
+
 
 
 
