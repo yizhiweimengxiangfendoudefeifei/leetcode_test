@@ -145,6 +145,7 @@
     <ClInclude Include="10longestUnivaluePath.h" />
     <ClInclude Include="11diameterofBinary.h" />
     <ClInclude Include="12binaryTreePaths.h" />
+    <ClInclude Include="13isValidBST.h" />
     <ClInclude Include="1maxDepth.h" />
     <ClInclude Include="2从前序和中序遍历序列构造二叉树.h" />
     <ClInclude Include="3binary_search_tree.h" />

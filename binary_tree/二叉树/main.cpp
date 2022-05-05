@@ -16,6 +16,7 @@ TreeNode* node7{};
 #include"10longestUnivaluePath.h"
 #include"11diameterofBinary.h"
 #include"12binaryTreePaths.h"
+#include"13isValidBST.h"
 
 //3_binary_search_tree
 
@@ -83,6 +84,10 @@ int main() {
         cout << "您需要创建的二叉树顺序是：1 2 # 5 # # 3 # #" << endl;//输出形式如"1->2->5","1->3"
         binaryTreePaths(node7);
         myprint();
+    case 13:
+        cout << "您选择力扣题目是：98. 验证二叉搜索树" << endl;
+        cout << "您需要创建的二叉树顺序是：5 1 # # 4 3 # # 6 # #" << endl;//输出false"
+        cout << isValidBST(node7) << endl;
     default:
         break;
     }
