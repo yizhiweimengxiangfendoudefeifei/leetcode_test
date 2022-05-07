@@ -42,6 +42,31 @@
 ![image](https://user-images.githubusercontent.com/39455551/166246852-e52ac859-5aac-4f1e-b69e-148def1b061c.png)  
 ## 13.[打家劫舍3](https://leetcode-cn.com/problems/house-robber-iii/)  
 这道题太难了，过几天再想想。  
+## 14.验证二叉树是否相等  
+主要思路：利用最小和最大节点记录，主要是做左右递归对比二叉树是否相等。 
+总结二叉搜索树的一般思路：  
+1. 找到当前节点要做的事情，其他的事交给递归。  
+2. 如果需要对比整个二叉树，可以增加参数传递。  
+3. 总结框架如下。  
+总结针对BST的遍历框架：  
+```
+void BST(TreeNode* root, int target){
+  if(root->val == target){
+    //do
+  }
+  if(root->val < target){
+    BST（root->right, target）;
+  }
+  if(root->val > target){
+    BST（root->left, target）;
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/39455551/166960207-913b5b04-b807-4632-8c47-d3371a15d916.png)
+## 15.二叉搜索树的插入操作  
+思路：递归插入节点到最后。  
+![image](https://user-images.githubusercontent.com/39455551/166960382-a2249a31-8efa-4caf-ac34-021642d6502e.png)
+
 
 
 
