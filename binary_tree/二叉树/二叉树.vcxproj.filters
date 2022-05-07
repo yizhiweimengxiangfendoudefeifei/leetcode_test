@@ -56,7 +56,13 @@
     <ClInclude Include="12binaryTreePaths.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="13isValidBST.h">
+    <ClInclude Include="14isValidBST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="15insertIntoBST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="13rob3.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
