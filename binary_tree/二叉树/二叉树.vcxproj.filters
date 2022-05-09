@@ -65,5 +65,8 @@
     <ClInclude Include="13rob3.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="16convertBST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

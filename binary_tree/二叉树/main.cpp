@@ -21,6 +21,7 @@ TreeNode* node7{};
 #include"13rob3.h"
 #include"14isValidBST.h"
 #include"15insertIntoBST.h"
+#include"16convertBST.h"
 
 
 //3_binary_search_tree
@@ -112,6 +113,11 @@ int main() {
         cout << "您选择力扣题目是：701. 二叉搜索树中的插入操作" << endl;
         cout << "您需要创建的二叉树顺序是：4 2 1 # # 3 # # 7 # #" << endl;//输出"
         insertIntoBST(node7,5);
+        break;
+    case 16:
+        cout << "您选择力扣题目是：剑指 Offer II 054. 所有大于等于节点的值之和" << endl;
+        cout << "您需要创建的二叉树顺序是：2 0 -4 # # 1 # # 3 # #" << endl;//输出5 6 2 6 3"
+        convertBST(node7);
         break;
     default:
         break;

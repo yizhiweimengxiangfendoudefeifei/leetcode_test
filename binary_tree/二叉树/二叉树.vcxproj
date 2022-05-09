@@ -148,6 +148,7 @@
     <ClInclude Include="13rob3.h" />
     <ClInclude Include="14isValidBST.h" />
     <ClInclude Include="15insertIntoBST.h" />
+    <ClInclude Include="16convertBST.h" />
     <ClInclude Include="1maxDepth.h" />
     <ClInclude Include="2从前序和中序遍历序列构造二叉树.h" />
     <ClInclude Include="3binary_search_tree.h" />
