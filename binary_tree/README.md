@@ -71,7 +71,10 @@ void BST(TreeNode* root, int target){
 ![image](https://user-images.githubusercontent.com/39455551/166960207-913b5b04-b807-4632-8c47-d3371a15d916.png)
 ## 15.二叉搜索树的插入操作  
 思路：递归插入节点到最后。  
-![image](https://user-images.githubusercontent.com/39455551/166960382-a2249a31-8efa-4caf-ac34-021642d6502e.png)
+![image](https://user-images.githubusercontent.com/39455551/166960382-a2249a31-8efa-4caf-ac34-021642d6502e.png) 
+## 16.[所有大于等于节点的值之和](https://leetcode.cn/problems/w6cpku/) 
+问题：当树里边存在负数的时候结果不正确。  
+
 
 
 
