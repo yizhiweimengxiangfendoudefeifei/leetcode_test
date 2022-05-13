@@ -70,7 +70,10 @@ return {}；返回vector<int>
     }  
   ```
 # 07[广度优先搜索](https://github.com/yizhiweimengxiangfendoudefeifei/leetcode_test/tree/main/bfsdfs)          
-# [08二叉树](https://github.com/yizhiweimengxiangfendoudefeifei/leetcode_test/tree/main/binary_tree)                            
+# [08二叉树](https://github.com/yizhiweimengxiangfendoudefeifei/leetcode_test/tree/main/binary_tree)   
+# 9 递归  
+递归适用于那些能把大问题拆解为几个子问题的。  
+                              
                                                                                                                                           
                                                                                                                                           
   
