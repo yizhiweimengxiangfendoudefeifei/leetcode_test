@@ -3,7 +3,7 @@
 #define __2__
 
 ListNode* reverseList(ListNode* head) {
-    ListNode* pre = nullptr;
+    /*ListNode* pre = nullptr;
     ListNode* cur = head;
     while (cur) {
         ListNode* temp = cur->next;
@@ -11,7 +11,16 @@ ListNode* reverseList(ListNode* head) {
         pre = cur;
         cur = temp;
     }
-    return pre;
+    return pre;*/
+
+    //µÝ¹éÊµÏÖ
+    if (head == nullptr || head->next == nullptr) {
+        return head;
+    }
+    ListNode* p = reverseList(head->next);
+    head->next->next = head;
+    head->next = nullptr;
+    return p;
 
 }
 #endif // !__2__
