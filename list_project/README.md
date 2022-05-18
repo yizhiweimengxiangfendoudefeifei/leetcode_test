@@ -12,4 +12,11 @@
 题解：哈希容器比较好想，遍历整个链表，只要发现遍历过的元素出现在哈希表中就返回真，否则返回假。  
 第二种解法是双指针，快慢指针，如果快指针能够追上慢指针则证明存在环。  
 ![image](https://user-images.githubusercontent.com/39455551/168416432-814b9faf-37a8-4874-a186-e42a226b3c2e.png)
+## 6.[两数相加](https://leetcode.cn/problems/add-two-numbers/)   
+说明：2->next = 3;将2的指针指向3  
+3 = 2->next;将2的下一个指针的值改变为3  
+root = root->nest;将链表一直移动下去  
+思路：这道题主要是要新建一个链表root用来返回，新建一个cursor等于root用来一直向下指，利用全局变量carry记录是否进位，利用sumVal%10记录每一位的数字用node来接收，同时将cursor的下一个指针指向node，将cursor=node进行移动。while循环结束的条件是l1不为空或l2不为空或carry不为0（还有进位发生）。  
+![image](https://user-images.githubusercontent.com/39455551/168940165-0a5f8418-2770-490d-a3fc-f2db2a64fa33.png)
+
 
