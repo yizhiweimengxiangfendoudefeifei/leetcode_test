@@ -3,7 +3,10 @@
 
 ## 2.  
 
-## 3.  
+## 3.[反转链表2]()  
+题解：利用2反转链表中的递归解法，只不过是返回固定区间的反转链表。因此需要记录下后继节点，将head->next = successor;指向后继节点。  
+![image](https://user-images.githubusercontent.com/39455551/168942041-ecdaceda-9fce-4fa7-abce-5a0597ec6f67.png)
+
 ## 4.[两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/)  
 题解：基本的交换方法还是最简单的链表交换方法，即从顶点到最后一个链表进行交换。在这里进行的是选择区间交换[a,b)。  
 使用递归进行交换的思想。要确定不同节点之间的连接关系。  
