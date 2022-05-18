@@ -147,6 +147,7 @@
     <ClInclude Include="3reverseBetween.h" />
     <ClInclude Include="4swapPairs.h" />
     <ClInclude Include="5hascycle.h" />
+    <ClInclude Include="6addTwoNumbers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

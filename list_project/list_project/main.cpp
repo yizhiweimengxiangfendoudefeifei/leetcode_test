@@ -4,9 +4,11 @@
 #include"3reverseBetween.h"
 #include"4swapPairs.h"
 #include"5hascycle.h"
+#include"6addTwoNumbers.h"
 using namespace std;
 
 ListNode* node{};
+ListNode* node1{};
 int main() {
 	cout << "这是一个链表工程的记录，请输入您选择的工程号：" << endl;
 	int choice;
@@ -28,6 +30,10 @@ int main() {
 	case 5:
 		cout << "您选择的工程师：141. 环形链表" << endl;
 		hasCycle(node);
+		break;
+	case 6:
+		cout << "您选择的工程师：2. 两数相加" << endl;
+		addTwoNumbers(node,node1);
 		break;
 	default:
 		break;

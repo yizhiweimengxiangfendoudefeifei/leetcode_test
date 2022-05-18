@@ -35,5 +35,8 @@
     <ClInclude Include="5hascycle.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="6addTwoNumbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
