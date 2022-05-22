@@ -21,5 +21,13 @@
 root = root->nest;将链表一直移动下去  
 思路：这道题主要是要新建一个链表root用来返回，新建一个cursor等于root用来一直向下指，利用全局变量carry记录是否进位，利用sumVal%10记录每一位的数字用node来接收，同时将cursor的下一个指针指向node，将cursor=node进行移动。while循环结束的条件是l1不为空或l2不为空或carry不为0（还有进位发生）。  
 ![image](https://user-images.githubusercontent.com/39455551/168940165-0a5f8418-2770-490d-a3fc-f2db2a64fa33.png)
+## 7.[旋转链表](https://leetcode.cn/problems/rotate-list/)  
+思路：将链表转换为循环链表cur->next = head;  
+主要是找到新的开始节点，开始节点的上一个节点即为结束节点，将结束节点的下一个节点置为空。  
+找到开始节点的主要思路是：k %= count; 在count - k中循环  
+![image](https://user-images.githubusercontent.com/39455551/169677138-07f7ffbe-6e4c-47e5-8231-d21f61e6b44e.png)
+## 8.[奇偶链表](https://leetcode.cn/problems/odd-even-linked-list/)  
+思路：这道题比较简单，但是注意简化代码，提高代码的阅读性，之前自己写的代码过于复杂，不够简洁。  
+![image](https://user-images.githubusercontent.com/39455551/169677181-15050545-a4a4-4abb-9781-4ecc38a13235.png)
 
 
