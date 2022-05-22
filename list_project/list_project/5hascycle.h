@@ -4,6 +4,7 @@
 #include<unordered_set>
 unordered_set<ListNode*> seen;
 bool hasCycle(ListNode* head) {
+    createList(head);
     //¹şÏ£±í
     /*while (head) {
         if (seen.count(head)) {

@@ -38,5 +38,11 @@
     <ClInclude Include="6addTwoNumbers.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="7rotateRight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8oddEvenList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,20 +2,37 @@
 #ifndef __1__
 #define __1__
 
+using namespace std;
+
 //线性表的单链表的存储结构
-struct ListNode
-{
+struct ListNode {
     int val;
     ListNode* next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode* next) : val(x), next(next) {}
+    
 };
 
 //typedef struct ListNode* linkList;
-void createList(ListNode* l, int n) {
-    ListNode* p, r;
-    int i = 0;
-
-
+void createList(ListNode* &L) {
+    ListNode* p,*r;
+    L = new ListNode(0);
+    r = L;
+    
+    while (1) {
+        int num = 0;
+        cin >> num;
+        if (num == 10) {
+            break;
+        }
+        p = new ListNode(num);
+        r->next = p;
+        r = p;
+        
+    }
+    r->next = nullptr;
+    L = L->next;
 }
 ListNode* deleteDuplicates(ListNode* head) {
     ListNode* dummy = new ListNode(0, head);
