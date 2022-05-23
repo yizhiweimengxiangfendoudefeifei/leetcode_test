@@ -1,7 +1,13 @@
 # 这是一个有关链表的题目记录  
-## 1.  
+## 1.[删除链表中重复元素2](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/)    
+思路：找到相等的元素int x = cur->next->val;在while中循环，只要下一个值存在并且下一个值等于x就让链表指向下下一个元素，delete掉下个元素。  
+![image](https://user-images.githubusercontent.com/39455551/169730561-8ea9b908-ea28-4a14-a451-2e99dbccab7f.png)
 
-## 2.  
+
+## 2.[反转链表1](https://leetcode.cn/problems/reverse-linked-list/)  
+题解：掌握两种方法，递归和遍历。
+![image](https://user-images.githubusercontent.com/39455551/169729932-1fa3d05d-b594-483f-8ef9-f4b2a0278db0.png)
+
 
 ## 3.[反转链表2]()  
 题解：利用2反转链表中的递归解法，只不过是返回固定区间的反转链表。因此需要记录下后继节点，将head->next = successor;指向后继节点。  
