@@ -3,6 +3,8 @@
 #define __6__
 
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+    createList(l1);
+    createList(l2);
     ListNode* root = new ListNode(0);
     ListNode* cursor = root;
     int carry = 0;

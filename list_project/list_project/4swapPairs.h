@@ -14,6 +14,7 @@ ListNode* reversePairs(ListNode* a, ListNode* b) {
     return pre;
 }
 ListNode* swapPairs(ListNode* head) {
+    
     if (head == nullptr) {
         return nullptr;
     }
