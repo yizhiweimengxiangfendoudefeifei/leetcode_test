@@ -27,7 +27,8 @@ int main() {
 	{
 	case 1:
 		cout << "您选择的工程是：力扣82.删除排序链表中的重复元素 II" << endl;
-
+		cout << "您输入的链表为：1 2 3 3 4 4 5，答案为1 2 5" << endl;
+		printList(deleteDuplicates(node));
 		break;
 	case 2:
 		cout << "您选择的工程是：力扣206.反转链表" << endl;
@@ -37,7 +38,9 @@ int main() {
 		break;
 	case 3:
 		cout << "您选择的工程是：92. 反转链表 II" << endl;
-		reverseBetween1(node, 2, 4);
+		cout << "您输入的链表为：1 2 3 4 5，答案为1 4 3 2 5" << endl;
+		createList(node);
+		printList(reverseBetween1(node, 2, 4));
 		break;
 	case 4:
 		cout << "您选择的工程是：24. 两两交换链表中的节点" << endl;

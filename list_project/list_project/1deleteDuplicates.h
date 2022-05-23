@@ -35,6 +35,7 @@ void createList(ListNode* &L) {
     L = L->next;
 }
 ListNode* deleteDuplicates(ListNode* head) {
+    createList(head);
     ListNode* dummy = new ListNode(0, head);
 
     ListNode* cur = dummy;
